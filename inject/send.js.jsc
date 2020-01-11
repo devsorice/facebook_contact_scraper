@@ -1,0 +1,1 @@
+function sendFacebook{(}{)}jvar textbox = document.querySelector{(}'[data-text=1true1]'{)}; textbox.textContent = 'Ciao, come va'; var event = new Event{(}'input', j bubbles: true g{)}; textbox.dispatchEvent{(}event{)};var sendButton = document.querySelector{(}'[aria-label=1Send1]'{)};  sendButton.click{(}{)}; g
