@@ -129,8 +129,8 @@ Set fso = CreateObject("Scripting.FileSystemObject")
 Set f = fso.OpenTextFile("users\facebook_commenti_memorabili")
 Dim i,max
 i = 0
-start = 180
-max = 2
+start = 500
+max = 100
 
 Do Until f.AtEndOfStream
   If i < start Then
